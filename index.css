@@ -113,7 +113,7 @@ p {
 }
 .section2 {
   height: 500px;
-  background: url(/2.jpg);
+  background: url(2.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -149,7 +149,7 @@ p {
 }
 .section3 {
   height: 500px;
-  background: url(/3.jpg);
+  background: url(3.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -187,7 +187,7 @@ p {
 }
 .section4 {
   height: 500px;
-  background: url(/4.jpg);
+  background: url(4.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -219,7 +219,7 @@ p {
 }
 .section5 {
   height: 500px;
-  background: url(/5.jpg);
+  background: url(5.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -270,7 +270,7 @@ p {
 }
 .section6 {
   height: 500px;
-  background: url(/6.jpg);
+  background: url(6.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -281,7 +281,7 @@ p {
 }
 .section7 {
   height: 500px;
-  background: url(/7.png);
+  background: url(7.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -292,7 +292,7 @@ p {
 }
 .section8 {
   height: 500px;
-  background: url(/7.jpg);
+  background: url(8.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -311,7 +311,7 @@ p {
 }
 .section9 {
   height: 500px;
-  background: url(/8.jpg);
+  background: url(9.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
