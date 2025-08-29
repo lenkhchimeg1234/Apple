@@ -268,6 +268,7 @@ p {
   line-height: normal;
   letter-spacing: 2px;
 }
+
 .section6 {
   height: 500px;
   background: url(6.jpg);
@@ -279,6 +280,7 @@ p {
   padding-top: 42px;
   margin-top: 12px;
 }
+
 .section7 {
   height: 500px;
   background: url(7.png);
@@ -290,6 +292,7 @@ p {
   padding-top: 36px;
   margin-top: 12px;
 }
+
 .section8 {
   height: 500px;
   background: url(8.jpg);
@@ -309,6 +312,7 @@ p {
   align-items: center;
   /* gap: 16px; */
 }
+
 .section9 {
   height: 500px;
   background: url(9.jpg);
@@ -333,4 +337,118 @@ p {
   color: white;
   font-size: 14px;
   font-weight: 300;
+}
+
+.section10 {
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scroll {
+  width: 100vw;
+  overflow: scroll;
+  padding-bottom: 14px;
+}
+.sec10 {
+  display: flex;
+  gap: 16px;
+  width: fit-content;
+}
+.image10 {
+  width: 274px;
+  height: 495px;
+}
+.scrollcircle {
+  width: 220px;
+  height: 8px;
+  display: flex;
+  gap: 20px;
+  /* padding-left: 85px; */
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.scrcircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.section11 {
+  display: flex;
+  gap: 16px;
+  width: fit-content;
+
+  margin-top: 12px;
+}
+
+.image11 {
+  width: 234px;
+  height: 134px;
+}
+.text11 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.mic {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  width: 100vw;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+.musicimage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #d2d2d7;
+}
+@media (min-width: 768px) {
+  .image1-2 {
+    background: url("./tab1.jpg");
+    align-items: start;
+    padding-top: 58px;
+    background-size: cover;
+    background-position: center;
+  }
+  .section2 {
+    background: url("/tab2.jpg");
+    padding-top: 58px;
+    background-size: cover;
+    background-position: center;
+  }
+  .tablets {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+  }
+  .section4 {
+    width: 50%;
+  }
+  .section5 {
+    width: 50%;
+  }
+  .section6 {
+    width: 50%;
+  }
+  .section7 {
+    width: 50%;
+  }
+  .section8 {
+    width: 50%;
+  }
+  .section9 {
+    width: 50%;
+  }
 }
