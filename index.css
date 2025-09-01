@@ -185,6 +185,42 @@ p {
   line-height: 18px;
   padding-top: 276.14px;
 }
+
+.section3hide {
+  height: 692px;
+  background: url(/Apple/sec3hide.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 82px;
+  margin-top: 12px;
+}
+.tailbar3-1 {
+  /* height: 164px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.text3-1 {
+  color: black;
+  text-align: center;
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+.text3-2 {
+  color: black;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
 .section4 {
   height: 500px;
   background: url(4.jpg);
@@ -197,6 +233,14 @@ p {
   margin-top: 12px;
 }
 .tailbar4-1 {
+  height: 147px;
+  width: 241px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.tailbar4-1hide {
   height: 147px;
   width: 241px;
   display: flex;
@@ -344,6 +388,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 12px;
 }
 .scroll {
   width: 100vw;
@@ -393,7 +438,7 @@ p {
 .image10-8 {
   width: 274px;
   height: 495px;
-  background-image: url(/10-8.jpg);
+  background-image: url(10-8.jpg);
 }
 .scrollcircle {
   width: 220px;
@@ -424,13 +469,14 @@ p {
     rgba(0, 0, 0, 0.5) 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  background-image: url(/sec10hide1.jpg);
+  background-image: url(sec10hide1.jpg);
   display: flex;
   gap: 18px;
   justify-content: left;
   align-items: end;
   padding-bottom: 27px;
   padding-left: 35px;
+  box-sizing: border-box;
 }
 
 .stream {
@@ -454,10 +500,60 @@ p {
   line-height: 20px;
   width: 401px;
 }
+.dramades {
+  opacity: 0.999;
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 401px;
+}
+.tabhidepic3 {
+  width: 689px;
+  height: 368px;
+  background-image: url(/Apple/desktop1.jpg);
+}
 .tabhidepic2 {
   width: 689px;
   height: 368px;
-  background-image: url(/sec10hide2.jpg);
+  background-image: url(sec10hide2.jpg);
+}
+.tabhidepic4 {
+  width: 689px;
+  height: 368px;
+  background-image: url(sec10hide4.jpg);
+}
+.tabhidepic5 {
+  width: 689px;
+  height: 368px;
+  background-image: url(sec10hide5.jpg);
+}
+.tabhidepic6 {
+  width: 689px;
+  height: 368px;
+  background-image: url(sec10hide6.jpg);
+}
+.tabhidepic7 {
+  width: 689px;
+  height: 368px;
+  background-image: url(sec10hide7.jpg);
+}
+.tabhidepic8 {
+  width: 689px;
+  height: 368px;
+  background-image: url(sec10hide8.jpg);
+}
+.tabhidepic9 {
+  width: 689px;
+  height: 368px;
+  background-image: url(/Apple/sec10hide9.jpg);
+}
+.tabhidepic10 {
+  width: 689px;
+  height: 368px;
+  background-image: url(/Apple/sec10hide10.jpg);
 }
 .section11 {
   display: flex;
@@ -615,6 +711,132 @@ p {
     display: none;
   }
   .image11-3hide {
+    display: none;
+  }
+}
+.cardhide {
+  height: auto;
+  background: url(/Apple/cardhide.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-top: 51px;
+  margin-top: 12px;
+}
+.tailbarcardhide {
+  width: 322px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.card {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  width: 322px;
+}
+
+@media (max-width: 1024px) {
+  .section3hide {
+    display: none;
+  }
+  .tailbar4-1hide {
+    display: none;
+  }
+  .cardhide {
+    display: none;
+  }
+  .dramades {
+    display: none;
+  }
+  .tabhidepic3 {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .section4 {
+    background: url(/Apple/airpodhide.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 54px;
+    margin-top: 12px;
+    width: 50%;
+  }
+  .section5 {
+    background: url(/Apple/watchhide.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 36px;
+    margin-top: 12px;
+  }
+
+  .tailbar4-1 {
+    display: none;
+  }
+  .tabhidepic1 {
+    width: 1250px;
+    height: 668px;
+    background-image: url(/Apple/desktop2.jpg);
+    display: flex;
+    gap: 18px;
+    justify-content: left;
+    align-items: end;
+    padding-bottom: 68px;
+    padding-left: 35px;
+    box-sizing: border-box;
+  }
+  .drama {
+    display: none;
+  }
+  .tabhidepic2 {
+    width: 1250px;
+    height: 668px;
+    background-image: url(/Apple/desktop3.jpg);
+  }
+  .tabhidepic3 {
+    width: 1250px;
+    height: 668px;
+  }
+  .section8 {
+    display: none;
+  }
+  .cardhide {
+    width: 50%;
+  }
+  .section10 {
+    height: auto;
+  }
+  .tabhidepic4 {
+    display: none;
+  }
+  .tabhidepic5 {
+    display: none;
+  }
+
+  .tabhidepic6 {
+    display: none;
+  }
+  .tabhidepic7 {
+    display: none;
+  }
+  .tabhidepic8 {
+    display: none;
+  }
+  .tabhidepic9 {
+    display: none;
+  }
+  .tabhidepic10 {
     display: none;
   }
 }
