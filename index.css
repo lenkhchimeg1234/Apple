@@ -187,8 +187,8 @@ p {
 }
 
 .section3hide {
-  height: 692px;
-  background: url(/Apple/sec3hide.jpg);
+  height: 500px;
+  background: url(sec3hide.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -384,7 +384,6 @@ p {
 }
 
 .section10 {
-  height: 533px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -513,7 +512,7 @@ p {
 .tabhidepic3 {
   width: 689px;
   height: 368px;
-  background-image: url(/Apple/desktop1.jpg);
+  background-image: url(desktop1.jpg);
 }
 .tabhidepic2 {
   width: 689px;
@@ -548,12 +547,12 @@ p {
 .tabhidepic9 {
   width: 689px;
   height: 368px;
-  background-image: url(/Apple/sec10hide9.jpg);
+  background-image: url(sec10hide9.jpg);
 }
 .tabhidepic10 {
   width: 689px;
   height: 368px;
-  background-image: url(/Apple/sec10hide10.jpg);
+  background-image: url(sec10hide10.jpg);
 }
 .section11 {
   display: flex;
@@ -567,7 +566,6 @@ p {
   height: 131px;
   background: #6529cf;
   display: flex;
-  /* height: 161px; */
   padding: 15px 15px 15px 77.5px;
   justify-content: flex-end;
   align-items: flex-end;
@@ -582,7 +580,6 @@ p {
     rgba(0, 0, 0, 0) 50%
   );
   display: flex;
-  /* height: 161px; */
   padding: 15px 15px 15px 77.5px;
   justify-content: flex-end;
   align-items: flex-end;
@@ -597,7 +594,6 @@ p {
     rgba(6, 55, 31, 0.325) 50%
   );
   display: flex;
-  /* height: 161px; */
   padding: 15px 15px 15px 77.5px;
   justify-content: flex-end;
   align-items: flex-end;
@@ -646,6 +642,11 @@ p {
   background: #d2d2d7;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section3 {
+    grid-column: 1 / span 2;
+  }
+}
 @media (min-width: 768px) {
   .image1-2 {
     background: url("./tab1.jpg");
@@ -660,15 +661,13 @@ p {
     background-size: cover;
     background-position: center;
   }
-  .tablets {
+  /* .tablets {
     display: flex;
     gap: 12px;
     justify-content: space-between;
-  }
-  .section4 {
-    width: 50%;
-  }
-  .section5 {
+  } */
+
+  /* .section5 {
     width: 50%;
   }
   .section6 {
@@ -682,7 +681,7 @@ p {
   }
   .section9 {
     width: 50%;
-  }
+  } */
   .sec10hide {
     display: flex !important;
   }
@@ -698,6 +697,11 @@ p {
   }
   .image11-3 {
     display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 12px;
   }
 }
 @media (max-width: 768px) {
@@ -716,7 +720,7 @@ p {
 }
 .cardhide {
   height: auto;
-  background: url(/Apple/cardhide.jpg);
+  background: url(cardhide.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -757,10 +761,22 @@ p {
   .tabhidepic3 {
     display: none;
   }
+  .image11-1des {
+    display: none;
+  }
+  .image11-2des {
+    display: none;
+  }
+  .image11-3des {
+    display: none;
+  }
+  .image11-4des {
+    display: none;
+  }
 }
 @media (min-width: 1024px) {
   .section4 {
-    background: url(/Apple/airpodhide.jpg);
+    background: url(airpodhide.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -768,10 +784,10 @@ p {
     justify-content: center;
     padding-bottom: 54px;
     margin-top: 12px;
-    width: 50%;
+    /* width: 50%; */
   }
   .section5 {
-    background: url(/Apple/watchhide.jpg);
+    background: url(watchhide.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -787,7 +803,7 @@ p {
   .tabhidepic1 {
     width: 1250px;
     height: 668px;
-    background-image: url(/Apple/desktop2.jpg);
+    background-image: url(desktop2.jpg);
     display: flex;
     gap: 18px;
     justify-content: left;
@@ -802,7 +818,7 @@ p {
   .tabhidepic2 {
     width: 1250px;
     height: 668px;
-    background-image: url(/Apple/desktop3.jpg);
+    background-image: url(desktop3.jpg);
   }
   .tabhidepic3 {
     width: 1250px;
@@ -811,9 +827,12 @@ p {
   .section8 {
     display: none;
   }
-  .cardhide {
-    width: 50%;
+  .section7 {
+    display: none;
   }
+  /* .cardhide {
+    width: 50%;
+  } */
   .section10 {
     height: auto;
   }
@@ -839,4 +858,41 @@ p {
   .tabhidepic10 {
     display: none;
   }
+  .image11-1hide {
+    display: none;
+  }
+  .image11-2hide {
+    display: none;
+  }
+  .image11-3hide {
+    display: none;
+  }
+  .image11-4hide {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 12px;
+  }
+}
+.image11-1des {
+  width: 417px;
+  height: 236px;
+  background-image: url(/sec11des1.png);
+}
+.image11-2des {
+  width: 417px;
+  height: 236px;
+  background-image: url(/sek11des2.png);
+}
+.image11-3des {
+  width: 417px;
+  height: 236px;
+  background-image: url(/sec11des3.png);
+}
+.image11-4des {
+  width: 417px;
+  height: 236px;
+  background-image: url(/sec11des4.jpg);
 }
