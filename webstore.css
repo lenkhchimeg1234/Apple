@@ -6,6 +6,10 @@ p {
   margin: 0;
   font-size: 0;
 }
+a {
+  text-decoration: none;
+  color: none;
+}
 .desktop {
   width: 100vw;
   /* padding: 0 140px; */
@@ -60,7 +64,6 @@ p {
   opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
-
   display: flex;
   gap: 80px;
 }
