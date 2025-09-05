@@ -130,7 +130,9 @@ a {
 }
 .stylehelp:hover,
 .stylehelp:active {
+  text-decoration: underline;
   font-size: 14px;
+  cursor: pointer;
 }
 .textask {
   color: #06c;
@@ -148,6 +150,7 @@ a {
 .textask:hover,
 .textask:active {
   font-size: 14px;
+  cursor: pointer;
 }
 .column {
   display: flex;
