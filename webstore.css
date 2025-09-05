@@ -41,6 +41,18 @@ a {
   font-style: normal;
   font-weight: 300;
 }
+.headtext:hover,
+.headtext:active {
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.image:hover,
+.image:active {
+  width: 20px;
+  height: 50px;
+  cursor: pointer;
+}
 .title {
   height: 60px;
   display: flex;
@@ -117,6 +129,10 @@ a {
   font-style: normal;
   font-weight: 700;
 }
+.stylehelp:hover,
+.stylehelp:active {
+  font-size: 14px;
+}
 .textask {
   color: #06c;
   font-family: "Inter", sans-serif;
@@ -129,6 +145,10 @@ a {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+}
+.textask:hover,
+.textask:active {
+  font-size: 14px;
 }
 .column {
   display: flex;
