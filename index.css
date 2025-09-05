@@ -140,6 +140,45 @@ a {
   color: #2997ff;
   font-size: 14px;
 }
+.buy:hover,
+.buy:active {
+  background-color: #0071e3;
+  color: white;
+}
+
+.buy1:hover,
+.buy1:active {
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+}
+.learnmore:hover,
+.learnmore:active {
+  border: 2px solid #0071e3;
+  cursor: pointer;
+}
+.learnmore1:hover,
+.learnmore1:active {
+  border: 2px solid white;
+  cursor: pointer;
+}
+.learnmore2:hover,
+.learnmore2:active {
+  border: 2px solid #0071e3;
+  cursor: pointer;
+}
+.headtext:hover,
+.headtext:active {
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.image:hover,
+.image:active {
+  width: 20px;
+  height: 50px;
+  cursor: pointer;
+}
 .section2 {
   height: 500px;
   background: url(2.jpg);
